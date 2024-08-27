@@ -11,7 +11,7 @@
   <body class="bg-gradient-to-r from-[#fbc2eb] to-[#a9c22c] grid h-screen">
     <!-- Navbar goes here -->
     <nav
-      class="bg-[white] text-black w-full h-12 flex justify-between items-center"
+      class="bg-[white] fixed text-black w-full h-12 flex justify-between items-center"
     >
       <div
         class="md:px-5 m-1.5 hidden md:flex font-bold md:font-extrabold text-[20px] md:text-2xl"
@@ -22,13 +22,13 @@
         class="md:flex hidden p-1 md:p-3 cursor-pointer block justify-between"
       >
         <li class="m-1 text-sm md:m-4 font-bold hover:-translate-y-[1px] hover:scale-110">
-          <a class="hover:text-gray-500 text-[16px]" href="#">Home</a>
+          <a class="hover:text-gray-500 text-[16px]" href="#Hero">Home</a>
         </li>
         <li class="m-1 text-sm md:m-4 font-bold hover:-translate-y-[1px] hover:scale-110">
-          <a class="hover:text-gray-500 text-[16px]" href="#">About</a>
+          <a class="hover:text-gray-500 text-[16px]" href="#About">About</a>
         </li>
         <li class="m-1 text-sm md:m-4 font-bold hover:-translate-y-[1px] hover:scale-110">
-          <a class="hover:text-gray-500 text-[16px]" href="#">Skills</a>
+          <a class="hover:text-gray-500 text-[16px]" href="#Skills">Skills</a>
         </li>
         <li class="m-1 text-sm md:m-4 font-bold hover:-translate-y-[1px] hover:scale-110">
           <a class="hover:text-gray-500 text-[16px]" href="#">Contact-Me</a>
@@ -81,7 +81,7 @@
 
     <!-- Main body/ Home Page starts here -->
 
-    <div class="w-100 pt-4">
+    <div id="Hero" class="w-100 md:pt-[240px] pt-5 m-5 my-10">
       <div
         class="w-70 flex flex-col md:flex-row md:justify-start justify-between items-center md:items-center space-x-4"
       >
@@ -102,8 +102,8 @@
     <!--Main Body/ Home Ends here  -->
 
     <!-- About starts here -->
-    <div class="w-100 flex flex-col">
-      <div class="" id="ABOUT">
+    <div class="w-100 flex flex-col md:pt-[200px]">
+      <div class="" id="About">
         <p
           class="text-center m-5 text-black underline font-extrabold font-sans text-3xl"
         >
