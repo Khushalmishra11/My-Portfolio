@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style2.css">
     <title>Khushal-Mishra Portfolio</title>
   </head>
 
@@ -35,12 +36,17 @@
         <li
           class="m-1 text-sm md:m-4 font-bold hover:-translate-y-[1px] hover:underline hover:scale-110"
         >
+          <a class="hover:text-gray-500 text-[16px]" href="#Experience">Experience</a>
+        </li>
+        <li
+          class="m-1 text-sm md:m-4 font-bold hover:-translate-y-[1px] hover:underline hover:scale-110"
+        >
           <a class="hover:text-gray-500 text-[16px]" href="#Skills">Skills</a>
         </li>
         <li
           class="m-1 text-sm md:m-4 font-bold hover:-translate-y-[1px] hover:underline hover:scale-110"
         >
-          <a class="hover:text-gray-500 text-[16px]" href="#">Contact-Me</a>
+          <a class="hover:text-gray-500 text-[16px]" href="#contact">Contact-Me</a>
         </li>
       </ul>
       <div class="flex md:hidden">
@@ -90,14 +96,14 @@
 
     <!-- Main body/ Home Page starts here -->
     <section>
-      <div id="Hero" class="w-100 md:pt-[240px] pt-5 m-5 my-10">
+      <div id="Hero" class="md:mt-[100px]">
         <div
-        class="w-70 flex flex-col md:flex-row md:justify-start justify-between items-center md:items-center space-x-4"
+        class="flex flex-col md:flex-row md:justify-start justify-between items-center md:items-center"
         >
-        <div class="h-full self-center p-4">
-            <img class="w-80 h-auto items-center" src="" alt="MyProfile" />
+        <div class="self-center">
+            <img class="one w-0.5rem h-0.5rem items-center" src="/asset/mypic.jpg" alt="MyProfile" />
           </div>
-          <div class="h-full items-center p-10">
+          <div class="h-full items-center p-1">
             <h1 class="text-black font-bold font-sans text-4xl text-center">
               Hello <br />I am Khushal Mishra
             </h1>
@@ -337,8 +343,8 @@
 
 <hr class="bg-yellow-500">
     <!-- Footer starts here -->
-    <footer
-      class="flex flex-col font-black items-center place-content-center w-full my-8 h-[160px]"
+    <footer id="contact"
+      class=" flex flex-col font-black items-center place-content-center w-full my-8 h-[160px]"
     >
       <div class="md:text-7xl text-4xl justify-center">
         <p>Thanks For Visiting</p>
